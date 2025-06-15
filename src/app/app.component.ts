@@ -1,6 +1,5 @@
-import { AfterViewInit, Component } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { MainUiHandlerService } from './services/main-ui-handler.service';
 
 @Component({
   selector: 'app-root',
@@ -9,11 +8,6 @@ import { MainUiHandlerService } from './services/main-ui-handler.service';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent implements AfterViewInit {
-  constructor(private uiHandler: MainUiHandlerService) {}
-  ngAfterViewInit(): void {
-    this.uiHandler.init();
-  }
-
+export class AppComponent{
   title = 'Anuradha S.';
 }

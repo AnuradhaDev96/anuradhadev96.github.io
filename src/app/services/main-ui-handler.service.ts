@@ -24,7 +24,7 @@ export class MainUiHandlerService {
     this.initSkillsAnimation();
     this.initGlightbox();
     this.initIsotope();
-    this.initSwiper();
+    // this.initSwiper();
     this.initFaqToggle();
     this.scrollToHashOnLoad();
   }
@@ -138,28 +138,6 @@ export class MainUiHandlerService {
             this.initAOS();
           });
         });
-      });
-    });
-  }
-
-  private initSwiper() {
-    window.addEventListener('load', () => {
-      document.querySelectorAll('.init-swiper').forEach(swiperElement => {
-        const configElement = swiperElement.querySelector('.swiper-config');
-        if (!configElement) return;
-
-        try {
-          const config = JSON.parse(configElement.innerHTML.trim());
-
-          if (swiperElement.classList.contains('swiper-tab')) {
-            // Call your custom pagination logic if exists
-            console.warn('Custom pagination not implemented in this conversion.');
-          } else {
-            new Swiper(swiperElement, config);
-          }
-        } catch (err) {
-          console.error('Failed to parse swiper config', err);
-        }
       });
     });
   }
