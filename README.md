@@ -30,5 +30,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 Run only to add the package
 > ng add angular-cli-ghpages 
 
+Build project (optional)
+> ng build --prod --base-href "/"
+
 Run to deploy
 > ng deploy --base-href=/
