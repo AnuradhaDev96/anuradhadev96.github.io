@@ -3,11 +3,12 @@ import { HeaderComponent } from "../../shared/components/header/header.component
 import { FooterComponent } from "../../shared/components/footer/footer.component";
 import { TestimonialsComponent } from "../testimonials/testimonials.component";
 import { PortfolioGridComponent } from "../portfolio-grid/portfolio-grid.component";
+import { ContactFormComponent } from "../contact-form/contact-form.component";
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [HeaderComponent, FooterComponent, TestimonialsComponent, PortfolioGridComponent],
+  imports: [HeaderComponent, FooterComponent, TestimonialsComponent, PortfolioGridComponent, ContactFormComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })

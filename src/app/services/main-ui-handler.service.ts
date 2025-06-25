@@ -1,4 +1,4 @@
-import { HostListener, Injectable } from '@angular/core';
+import { Injectable } from '@angular/core';
 
 declare const AOS: any;
 declare const Waypoint: any;

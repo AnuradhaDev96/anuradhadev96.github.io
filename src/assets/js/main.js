@@ -31,7 +31,7 @@ function initSwiper() {
             "loop": true,
             "speed": 600,
             "autoplay": {
-            "delay": 5000
+            "delay": 10000
             },
             "navigation": {
             "nextEl": ".swiper-button-next",
