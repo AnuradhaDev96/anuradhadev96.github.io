@@ -21,11 +21,11 @@ export class PortfolioGridComponent {
       detailsLink: '/portfolio-details'
     },
     {
-      image: 'assets/img/portfolio/portfolio-10.webp',
+      image: 'assets/img/portfolio/portfolio-11.webp',
       category: 'Graphics',
       filterClass: 'filter-uiux',
-      title: 'UI Design for Discount Finder App',
-      description: 'Set of organized screens with minimal workflows and features for discount/promotions listing app',
+      title: 'UI Design for Chat Application',
+      description: 'Followed the Cupertino guidelines to design a chat application to send voice and video messages',
       gallery: 'portfolio-gallery-graphics',
       detailsLink: '/portfolio-details'
     },
@@ -57,13 +57,13 @@ export class PortfolioGridComponent {
       detailsLink: '/portfolio-details'
     },
     {
-      image: 'assets/img/portfolio/portfolio-11.webp',
+      image: 'assets/img/portfolio/portfolio-10.webp',
       category: 'Graphics',
       filterClass: 'filter-uiux',
-      title: 'UI Design for Chat Application',
-      description: 'Followed the Cupertino guidelines to design a chat application to send voice and video messages',
+      title: 'UI Design for Discount Finder App',
+      description: 'Set of organized screens with minimal workflows and features for discount/promotions listing app',
       gallery: 'portfolio-gallery-graphics',
       detailsLink: '/portfolio-details'
-    }
+    },
   ];
 }
